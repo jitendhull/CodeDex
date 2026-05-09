@@ -56,11 +56,11 @@ def fire_in_name(name):
 def concatenate_names(name1, name2):
     return name1 + name2
 
-fire_names = filter(fire_in_name, random_names)
+fire_names = list(filter(fire_in_name, random_names))
 
 from functools import reduce
 
-filtered_names = list(reduce(concatenate_names, random_names))
+filtered_names = reduce(concatenate_names, random_names)   
 
 def display_name_info():
     print("Generated Fantasy Names:")
