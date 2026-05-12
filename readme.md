@@ -3,7 +3,7 @@
 This repository is used to track my learning progress from CodeDex.
 
 ## Current Focus
-- Python
+- Python Intermediate
 
 # Future Focus Topics
 - C++
@@ -18,3 +18,7 @@ This repository is used to track my learning progress from CodeDex.
 ## Why this repo
 - Keep all learning in one place.
 - Measure progress consistently.
+
+
+# Completed
+- Python Beginner
