@@ -23,11 +23,11 @@ class TestBankAccount(unittest.TestCase):
         with self.assertRaises(ValueError):
             self.account.deposit(-40)
 
-    def test_withdraw_sufficient_funs(self):
+    def test_withdraw_sufficient_funds(self):
         self.account.withdraw(30)
-        self.assertRaises(self.account.balance, 70)
+        self.assertEqual(self.account.balance, 70)
 
-    def test_withdraw_insufficient_funs(self):
+    def test_withdraw_insufficient_funds(self):
         with self.assertRaises(ValueError):
             self.account.withdraw(200)
 
