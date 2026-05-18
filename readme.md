@@ -4,7 +4,7 @@ This repository is used to track my learning progress from CodeDex.
 
 ## Current Focus
 - Python Intermediate
-- HTML
+- HTML (Elements and Structures Done)
 
 # Future Focus Topics
 - C++
