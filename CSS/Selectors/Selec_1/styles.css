@@ -1,0 +1,23 @@
+div {
+    border: 1px solid;
+    text-align: center;
+}
+
+.line {
+    width: 50%;
+    margin: auto;
+    padding: 10px 0;
+    text-decoration: underline;
+}
+
+.line#roses {
+    background-color: red;
+}
+
+.line#violets {
+    background-color: violet;
+}
+
+.line#sugar {
+    background-color: beige;
+}
