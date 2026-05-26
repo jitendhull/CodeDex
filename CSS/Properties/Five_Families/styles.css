@@ -1,0 +1,5 @@
+p {
+    font-family: sans-serif;
+    fallback: serif;
+    font-size: 2em;
+}
