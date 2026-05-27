@@ -1,0 +1,10 @@
+h4 {
+    text-align: center;
+}
+
+h4 > span {
+    text-decoration: underline;
+    color: red;
+    text-decoration: wavy;
+    text-decoration-thickness: 2px;
+}
