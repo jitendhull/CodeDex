@@ -3,6 +3,9 @@
 }
 
 /* Select `div` elements with `border` here */
+div {
+    border: 2px solid grey;
+}
 
 #post-list > li {
   list-style-type: none;
@@ -16,7 +19,9 @@ li > div {
   width: 10em;
   height: 10em;
   /* Add `border` here */
+  border: 12px solid green;
   /* Add `border-radius` here */
+  border-radius: 50%;
 }
 
 #outside-wrapper {
@@ -29,9 +34,11 @@ li > div {
   text-align: left;
   background-color: #f5f5f5;
   /* Add `border-radius` here */
+  border-radius: 5px;
 }
 
 .post-img {
   width: 100%;
   /* Add `border-radius` here */
+  border-radius: 5px;
 }
