@@ -2,9 +2,8 @@
   font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
 }
 
-/* Select `div` elements with `border` here */
 div {
-    border: 2px solid grey;
+  border: 2px solid grey;
 }
 
 #post-list > li {
@@ -18,9 +17,7 @@ li > div {
 #top-img {
   width: 10em;
   height: 10em;
-  /* Add `border` here */
   border: 12px solid green;
-  /* Add `border-radius` here */
   border-radius: 50%;
 }
 
@@ -33,12 +30,10 @@ li > div {
 .post-wrapper {
   text-align: left;
   background-color: #f5f5f5;
-  /* Add `border-radius` here */
   border-radius: 5px;
 }
 
 .post-img {
   width: 100%;
-  /* Add `border-radius` here */
   border-radius: 5px;
 }
