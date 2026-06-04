@@ -6,7 +6,7 @@
   
 .card-row {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding: 2rem;
   gap: 2rem;
 }
