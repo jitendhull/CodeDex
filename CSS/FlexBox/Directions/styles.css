@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+.card-row {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 2rem;
+}
+    
+.card {
+  background-color: yellowgreen;
+  border: 2px solid #0f3460;
+  border-radius: 12px;
+  padding: 2rem;
+  width: 150px;
+  height: 150px;
+}
