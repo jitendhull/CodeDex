@@ -10,9 +10,10 @@ body {
 
 .card-row {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   height: 100vh;
   padding: 2rem;
+  gap: 1rem
 }
 
 .card {
